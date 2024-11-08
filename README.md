@@ -29,7 +29,7 @@ https://lista-tarefas-next.vercel.app/
 1. `git clone https://github.com/danielvitort/lista-tarefas-next`
 2. `npm install`
 3. Renomeie o arquivo .env.example para .env e preencha as informações de conexão com o banco de dados PostgreSQL.
-4.`npx prisma migrate dev --name init`
+4. `npx prisma migrate dev --name init`
   
 ## Para rodar
 - `npm run dev`
