@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "vercel-build": "npx prisma migrate deploy",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "migrate:dev": "prisma migrate dev",
-    "migrate:deploy": "prisma migrate deploy"
+    "lint": "next lint"
   },
   "dependencies": {
     "@prisma/client": "^5.21.1",
