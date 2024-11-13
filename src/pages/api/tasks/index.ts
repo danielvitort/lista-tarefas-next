@@ -10,7 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         case 'GET':
             try {
                 const tasks = await prisma.task.findMany({
-                    orderBy: { presentationOrder: 'desc' }
+                    orderBy: { presentationOrder: 'asc' }
                 });
                 res.status(200).json(tasks);
             } catch (error) {
